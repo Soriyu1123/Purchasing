@@ -1,0 +1,64 @@
+.side-panel {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: auto;
+    overflow-y: auto;
+    margin-top: 120px;
+}
+
+.side-panel .menu {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.side-panel .menu h1{
+    color: white;
+}
+
+.side-panel .menu .item {
+    position: relative;
+    cursor: pointer;
+}
+
+.side-panel .menu .item a {
+    color: white;
+    font-size: 16px;
+    display: block;
+    text-decoration: none;
+    padding: 5px 30px;
+    line-height: 60px;
+}
+
+.side-panel .menu .item a:hover {
+    background: rgba(255, 255, 255, 0.1);
+    transition: 0.3s ease;
+}
+
+.side-panel .menu .item a .dropdown {
+    position: absolute;
+    right: 0;
+    margin: 20px;
+    transition: 0.3s ease;
+}
+
+.side-panel .menu .item .sub-menu {
+    background: rgba(255, 255, 255, 0.1);
+    display: none;
+}
+
+.side-panel:active,
+.menu:active,
+.item:active,
+.sub-menu:active {
+    background: rgba(255, 255, 255, 0.1);
+    display: block;
+}
+
+.side-panel .menu .item .sub-menu a {
+    padding-left: 100px;
+
+}

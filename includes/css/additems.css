@@ -1,0 +1,42 @@
+.additems {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.additems td {
+    padding: 5px;
+    border: none;
+    /* Remove borders from table cells */
+}
+
+.additems input,
+.additems textarea,
+.additems select {
+    padding: 5px;
+    width: 100%;
+}
+
+.additems input[type="submit"] {
+    width: auto;
+}
+
+.items,
+th,
+td {
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 1px solid black;
+}
+
+.btn {
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    width: 100px;
+    margin: 10px;
+}
+
+.btn:hover {
+    background-color: #0f100f;
+    color: white;
+}
